@@ -42,12 +42,13 @@ const About = () => {
         variants={fadeIn("", "", 0.1, 1)}
         className="mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]"
       >
-        Iʻm a skilled software developer with experience in JavaScript and other
-        popular frameworks like React and Node.js. Skilled in the MERN stack
-        including react framework like Next.js. I am a quick learner and
-        collaborate closely with clients and other developers/designers to
-        create efficient, scalable, and user-friendly solutions that solve
-        real-world problems. Letʻs work together to bring your ideas to life.
+        I'm an moderately experienced software developer who has worked with
+        JavaScript and other popular frameworks such as React and Node.js.
+        Competent in the MERN stack, including react frameworks such as Next.js.
+        I am a quick learner who collaborates closely with clients and other
+        developers/designers to develop efficient, scalable, and user-friendly
+        solutions to real-world problems. Let us connect to bring your ideas to
+        life.
       </motion.p>
 
       <div className="mt-20 flex flex-wrap gap-10">

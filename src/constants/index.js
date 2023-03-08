@@ -14,7 +14,7 @@ import {
   mongodb,
   git,
   figma,
-  docker,
+  // docker,
   meta,
   starbucks,
   tesla,
@@ -23,6 +23,7 @@ import {
   jobit,
   tripguide,
   threejs,
+  next,
 } from "../assets";
 
 export const navLinks = [
@@ -42,19 +43,19 @@ export const navLinks = [
 
 const services = [
   {
-    title: "Web Developer",
+    title: "Frontend Web Development",
     icon: web,
   },
   {
-    title: "React Developer",
+    title: "Mobile Development",
     icon: mobile,
   },
   {
-    title: "Frontend Development Mentor",
+    title: "Fullstack Web Development",
     icon: backend,
   },
   {
-    title: "Content Creator",
+    title: "Content Creation & Mentorship",
     icon: creator,
   },
 ];
@@ -109,8 +110,8 @@ const technologies = [
     icon: figma,
   },
   {
-    name: "docker",
-    icon: docker,
+    name: "next",
+    icon: next,
   },
 ];
 
