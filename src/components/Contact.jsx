@@ -2,6 +2,8 @@ import React, { useRef, useState } from "react";
 import { motion } from "framer-motion";
 import emailjs from "@emailjs/browser";
 
+import Swal from "sweetalert2";
+
 import { styles } from "../styles";
 import { EarthCanvas } from "./canvas";
 import { SectionWrapper } from "../hoc";
@@ -33,8 +35,8 @@ const Contact = () => {
 
     emailjs
       .send(
-        import.meta.VITE_APP_EMAILJS_SERVICE_ID,
-        import.meta.VITE_APP_EMAILJS_TEMPLATE_ID,
+        import.meta.env.VITE_APP_EMAILJS_SERVICE_ID,
+        import.meta.env.VITE_APP_EMAILJS_TEMPLATE_ID,
         {
           from_name: form.name,
           to_name: "Julius Gabriel",
@@ -42,13 +44,22 @@ const Contact = () => {
           to_email: "juliusgabrieladebowale@gmail.com",
           message: form.message,
         },
-        import.meta.VITE_APP_EMAILJS_PUBLIC_KEY
+        import.meta.env.VITE_APP_EMAILJS_PUBLIC_KEY
       )
       .then(
         () => {
           setLoading(false);
-          alert("Thank you. I will get back to you shortly");
-
+          Swal.fire({
+            title: "Sweet!",
+            text: "Iʻll get back to you shortly",
+            imageUrl: "https://unsplash.it/400/200",
+            imageWidth: 350,
+            imageHeight: 200,
+            imageAlt: "Custom image",
+            confirmButtonColor: "#151030",
+            background: "#151030",
+            color: "#f3f3f3",
+          });
           setForm({
             name: "",
             email: "",
@@ -58,7 +69,14 @@ const Contact = () => {
         (error) => {
           setLoading(false);
           console.log(error);
-          alert("Something went wrong");
+          Swal.fire({
+            icon: "error",
+            title: "Oops...",
+            text: "Something went wrong!",
+            confirmButtonColor: "#151030",
+            background: "#151030",
+            color: "#f3f3f3",
+          });
         }
       );
   };

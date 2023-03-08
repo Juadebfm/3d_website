@@ -12,13 +12,16 @@
     "@emailjs/browser": "^3.10.0",
     "@react-three/drei": "^9.57.0",
     "@react-three/fiber": "^8.11.8",
+    "dotenv": "^16.0.3",
     "framer-motion": "^10.1.0",
     "maath": "^0.5.2",
     "react": "^18.2.0",
+    "react-alert": "^7.0.3",
     "react-dom": "^18.2.0",
     "react-router-dom": "^6.8.2",
     "react-tilt": "^0.1.4",
     "react-vertical-timeline-component": "^3.6.0",
+    "sweetalert2": "^11.7.3",
     "three": "^0.150.1"
   },
   "devDependencies": {
