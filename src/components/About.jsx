@@ -42,10 +42,10 @@ const About = () => {
         variants={fadeIn("", "", 0.1, 1)}
         className="mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]"
       >
-        I'm an moderately experienced software developer who has worked with
-        JavaScript and other popular frameworks such as React and Node.js.
-        Competent in the MERN stack, including react frameworks such as Next.js.
-        I am a quick learner who collaborates closely with clients and other
+        I'm an experienced software developer who has worked with JavaScript and
+        other popular frameworks such as React and Node.js. Competent in the
+        MERN stack, including react frameworks such as Next.js. I am a quick
+        learner who collaborates closely with clients and other
         developers/designers to develop efficient, scalable, and user-friendly
         solutions to real-world problems. Let us connect to bring your ideas to
         life.

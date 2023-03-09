@@ -35,6 +35,7 @@ export const navLinks = [
     id: "work",
     title: "Work",
   },
+
   {
     id: "contact",
     title: "Contact",
@@ -117,83 +118,85 @@ const technologies = [
 
 const experiences = [
   {
-    title: "React.js Developer",
-    company_name: "Starbucks",
+    title: "Frontend Web Developer/Mentor",
+    company_name: "Pluralcode",
     icon: starbucks,
     iconBg: "#383E56",
-    date: "March 2020 - April 2021",
+    date: "November 2022 - Present",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
+      " Implemented user engagement strategies and integrated Google Analytics for Bullet Nigeria.",
+      "Delivered interactive and engaging coding sessions, using project-based learning, pair programming, and group discussions to enhance menteeʻs learning.",
       "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
       "Implementing responsive design and ensuring cross-browser compatibility.",
       "Participating in code reviews and providing constructive feedback to other developers.",
     ],
   },
   {
-    title: "React Native Developer",
-    company_name: "Tesla",
+    title: "Frontend Web Developer",
+    company_name: "DCOSS Associates LTD",
     icon: tesla,
     iconBg: "#E6DEDD",
-    date: "Jan 2021 - Feb 2022",
+    date: "June 2022 - Present",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Developed dynamic and browser-compatible web pages using ReactJS, Vanilla JS, Vanilla CSS, and CSS libraries such as Tailwind. Assisted with the website's SEO and security architecture.",
+      "Created brand identity and re-engineered brand components for web and official use, reducing the company's budget by 50%",
+      "Coordinated SEO, marketing, and optimization using the company's KPIs",
+      "Maintaining the company's online assets by managing website content, monitoring performance, ensuring user-friendliness, implementing and enforcing web security protocols, conducting regular audits, and coordinating with other departments.",
     ],
   },
   {
     title: "Web Developer",
-    company_name: "Shopify",
+    company_name: "Juadeb Designs",
     icon: shopify,
     iconBg: "#383E56",
-    date: "Jan 2022 - Jan 2023",
+    date: "August 2020 - Present",
     points: [
       "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
+      "Creating single-page web applications and websites consuming 3rd party APIs",
+      "Working with clients on bugs, features, and styling issues related to WordPress sites",
       "Implementing responsive design and ensuring cross-browser compatibility.",
       "Participating in code reviews and providing constructive feedback to other developers.",
     ],
   },
-  {
-    title: "Full stack Developer",
-    company_name: "Meta",
-    icon: meta,
-    iconBg: "#E6DEDD",
-    date: "Jan 2023 - Present",
-    points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
-    ],
-  },
+  // {
+  //   title: "Full stack Developer",
+  //   company_name: "Meta",
+  //   icon: meta,
+  //   iconBg: "#E6DEDD",
+  //   date: "Jan 2023 - Present",
+  //   points: [
+  //     "Developing and maintaining web applications using React.js and other related technologies.",
+  //     "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
+  //     "Implementing responsive design and ensuring cross-browser compatibility.",
+  //     "Participating in code reviews and providing constructive feedback to other developers.",
+  //   ],
+  // },
 ];
 
 const testimonials = [
   {
     testimonial:
-      "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
-    name: "Sara Lee",
-    designation: "CFO",
-    company: "Acme Co",
-    image: "https://randomuser.me/api/portraits/women/4.jpg",
+      "Disciplined, efficient, and all-around awesome guy who understands and delivers on what his clients want,",
+    name: "Bello Daniel",
+    designation: "MD/P",
+    company: "DCOSS Associates Ltd",
+    image: "/src/assets/partner-fixed.jpg",
   },
   {
     testimonial:
-      "I've never met a web developer who truly cares about their clients' success like Rick does.",
-    name: "Chris Brown",
-    designation: "COO",
-    company: "DEF Corp",
-    image: "https://randomuser.me/api/portraits/men/5.jpg",
+      "He's an amazing tutor and mentor; he's always patient and looking for ways to ensure mentees understand fundamental concepts.",
+    name: "AY",
+    designation: "Student",
+    company: "Juadeb SM Mentorship Program",
+    image: "/src/assets/student.jpg",
   },
   {
     testimonial:
-      "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
-    name: "Lisa Wang",
-    designation: "CTO",
-    company: "456 Enterprises",
-    image: "https://randomuser.me/api/portraits/women/6.jpg",
+      "Juadeb is an awesome team player, hardworking and reliable part of our team and structure.",
+    name: "Cyril",
+    designation: "Senior Web Engineer",
+    company: "PluralCode",
+    image: "/src/assets/pluracode.png",
   },
 ];
 
