@@ -20,13 +20,27 @@ const Hero = () => {
             I develop web applications, user <br className="sm:block hidden" />
             interfaces, and interactive websites
           </p>
+          <div className="flex items-center justify-start gap-8 mt-6">
+            <button
+              type="submit"
+              className="bg-tertiary py-3 px-12 rounded-xl outline-none w-fit text-white font-bold shadow-sm shadow-secondary hover:shadow-md hover:shadow-secondary transition-all duration-200"
+            >
+              <a href="https://juadebmantra.netlify.app">My Mantra</a>
+            </button>
+            <button
+              type="submit"
+              className="bg-tertiary py-3 px-12 rounded-xl outline-none w-fit text-white font-bold shadow-sm shadow-secondary hover:shadow-md hover:shadow-secondary transition-all duration-200"
+            >
+              <a href="">Fun Projects</a>
+            </button>
+          </div>
         </div>
       </div>
       <div>
         <br />
         <br />
       </div>
-      <ComputersCanvas />
+      {/* <ComputersCanvas /> */}
       <br />
       <br />
       <div className="absolute xs:bottom-10 bottom-32 w-full flex justify-center items-center">
