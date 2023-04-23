@@ -48,7 +48,7 @@ const services = [
     icon: web,
   },
   {
-    title: "Mobile Development",
+    title: "WordPress Development",
     icon: mobile,
   },
   {
@@ -56,7 +56,7 @@ const services = [
     icon: backend,
   },
   {
-    title: "Content Creation & Mentorship",
+    title: "Mentorship",
     icon: creator,
   },
 ];
@@ -124,28 +124,29 @@ const experiences = [
     iconBg: "#383E56",
     date: "November 2022 - Present",
     points: [
-      " Implemented user engagement strategies and integrated Google Analytics for Bullet Nigeria.",
-      "Delivered interactive and engaging coding sessions, using project-based learning, pair programming, and group discussions to enhance menteeʻs learning.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
+      " Implemented user engagement strategies and integrated Google Analytics that enhanced decision making for the project management team of Bullet Nigeria.",
+      "Delivered interactive and engaging coding sessions, using project-based learning, and pair programming which resulted in the reduction of the learning curve initially required for the students in 2022 - 2023 cohorts of Pluralcode Academy there-by improving the brand's value as a tech-ed company",
+      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products like admin dashboard to measure product sales and conversion rates.",
       "Implementing responsive design and ensuring cross-browser compatibility.",
       "Participating in code reviews and providing constructive feedback to other developers.",
+      "Part of the design and development team for SAGE Institute of Business and Management. A subsidiary product of Pluracode",
     ],
   },
   {
-    title: "Frontend Web Developer",
+    title: "Web Developer",
     company_name: "DCOSS Associates LTD",
     icon: tesla,
     iconBg: "#E6DEDD",
     date: "June 2022 - Present",
     points: [
-      "Developed dynamic and browser-compatible web pages using ReactJS, Vanilla JS, Vanilla CSS, and CSS libraries such as Tailwind. Assisted with the website's SEO and security architecture.",
-      "Created brand identity and re-engineered brand components for web and official use, reducing the company's budget by 50%",
-      "Coordinated SEO, marketing, and optimization using the company's KPIs",
-      "Maintaining the company's online assets by managing website content, monitoring performance, ensuring user-friendliness, implementing and enforcing web security protocols, conducting regular audits, and coordinating with other departments.",
+      "Developed dynamic and browser-compatible web pages using ReactJS, Nextjs, CSS (Tailwind, BootStrap, SASS) and reduced the company's budget for web development by at least 40% of the initial budget planned",
+      "Assisted with the website's SEO and security architecture.",
+      "Developed the brand identity and re-designed the brand components of the company for web and official use, reducing the company's budget by another 10%",
+      "Maintaining the company's online assets by managing website content, monitoring performance, ensuring user-friendliness, implementing and enforcing web security protocols, conducting regular audits, and coordinating with other departments hence reducing the over-head budget need to run the business",
     ],
   },
   {
-    title: "Web Developer",
+    title: "Frontend Web Developer",
     company_name: "Juadeb Designs",
     icon: shopify,
     iconBg: "#383E56",
@@ -158,19 +159,6 @@ const experiences = [
       "Participating in code reviews and providing constructive feedback to other developers.",
     ],
   },
-  // {
-  //   title: "Full stack Developer",
-  //   company_name: "Meta",
-  //   icon: meta,
-  //   iconBg: "#E6DEDD",
-  //   date: "Jan 2023 - Present",
-  //   points: [
-  //     "Developing and maintaining web applications using React.js and other related technologies.",
-  //     "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-  //     "Implementing responsive design and ensuring cross-browser compatibility.",
-  //     "Participating in code reviews and providing constructive feedback to other developers.",
-  //   ],
-  // },
 ];
 
 const testimonials = [
@@ -202,67 +190,71 @@ const testimonials = [
 
 const projects = [
   {
-    name: "Car Rent",
+    name: "Article Summarizer",
     description:
-      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+      "Web-based application that help users simplify reading and reduce assimilation time with an open-source article summarizer that transforms lengthy articles into clear, concise and precise summaries.",
     tags: [
       {
-        name: "react",
+        name: "React JS",
         color: "blue-text-gradient",
       },
       {
-        name: "mongodb",
+        name: "RAPID API",
         color: "green-text-gradient",
       },
       {
-        name: "tailwind",
+        name: "Tailwind CSS",
         color: "pink-text-gradient",
       },
     ],
     image: carrent,
-    source_code_link: "https://github.com/",
+    source_code_link: "https://github.com/Juadebfm/juadeb-text-summarizer",
   },
   {
-    name: "Job IT",
+    name: "React E-Commerce",
     description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+      "A simple react e-commerce SPA, that consumes a REST API (fakestore) and has product selection functions, still in progress, adding checkout and payment gateways soon",
     tags: [
       {
-        name: "react",
+        name: "React JS",
         color: "blue-text-gradient",
       },
       {
-        name: "restapi",
+        name: "REST API",
         color: "green-text-gradient",
       },
       {
-        name: "scss",
+        name: "TailwindCSS",
         color: "pink-text-gradient",
       },
     ],
     image: jobit,
-    source_code_link: "https://github.com/",
+    source_code_link: "https://github.com/Juadebfm/react_js_ecommerce",
   },
   {
-    name: "Trip Guide",
+    name: "Kara-Kata",
     description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+      "A ecommerce website built using HTML, CSS and Javascript that has cart functionalities and is fully responsive. A project created using vanilla web development languages. Still in progress",
     tags: [
       {
-        name: "nextjs",
+        name: "JavaScript",
         color: "blue-text-gradient",
       },
       {
-        name: "supabase",
+        name: "HTML5",
         color: "green-text-gradient",
       },
       {
-        name: "css",
+        name: "CSS",
+        color: "green-text-gradient",
+      },
+      {
+        name: "Sweet Alert",
         color: "pink-text-gradient",
       },
     ],
     image: tripguide,
-    source_code_link: "https://github.com/",
+    source_code_link: "https://github.com/Juadebfm/Kara_Kata-Ecommerce",
   },
 ];
 

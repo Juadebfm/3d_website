@@ -40,15 +40,24 @@ const About = () => {
       </motion.div>
       <motion.p
         variants={fadeIn("", "", 0.1, 1)}
-        className="mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]"
+        className="mt-2 text-white text-[17px] max-w-full leading-[30px]"
       >
-        I'm an experienced software developer who has worked with JavaScript and
-        other popular frameworks such as React and Node.js. Competent in the
-        MERN stack, including react frameworks such as Next.js. I am a quick
-        learner who collaborates closely with clients and other
-        developers/designers to develop efficient, scalable, and user-friendly
-        solutions to real-world problems. Let us connect to bring your ideas to
-        life.
+        <span className="block text-secondary text-[20px] capitalize mb-2">
+          Welcome to the world of problem-solving!
+        </span>
+        You've come to the right space if you're looking solutions to brand
+        bottle-necks. I've spent the last three years as a frontend web
+        developer and software development coach addressing challenges for
+        organizations, brands, institutions, and clients just like you. I
+        understand that your objectives in today's fast-paced digital
+        environment might be complex and time-consuming. With my knowledge and
+        experience, I can provide you with the ideal answer to any of your
+        technology-related problems. I have the expertise and knowledge to take
+        your business to the next level, from developing and building
+        user-friendly websites that engage your audience to giving top-tier
+        software development guidance and advice. I have the solutions you need
+        if you need help with web design, web development, software development,
+        or anything in between.
       </motion.p>
 
       <div className="mt-20 flex flex-wrap gap-10">

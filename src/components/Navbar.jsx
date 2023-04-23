@@ -11,7 +11,7 @@ const Navbar = () => {
 
   return (
     <nav
-      className={`${styles.paddingX} w-full flex items-center py-5 fixed top-0 z-20 bg-primary`}
+      className={`${styles.paddingX} w-full flex items-center py-5 fixed top-0 z-20 bg-[#151030]`}
     >
       <div className="w-full flex justify-between items-center max-w-7xl mx-auto">
         <Link
@@ -22,10 +22,9 @@ const Navbar = () => {
             window.scrollTo(0, 0);
           }}
         >
-          <img src={juadebB} alt="logo" className="w-16 h-16 object-contain" />
-          <p className="text-white text-[18px] font-bold cursor-pointer flex">
-            Julius &nbsp;
-            <span className="sm:block hidden"> | Gabriel Adeb</span>
+          <img src={juadebB} alt="logo" className="w-30 h-30 object-contain" />
+          <p className="sm:block hidden text-white text-[16px] font-bold cursor-pointer">
+            Julius Gabriel Adeb
           </p>
         </Link>
         <ul className="list-none hidden sm:flex flex-row gap-10">
@@ -34,7 +33,7 @@ const Navbar = () => {
               key={link.id}
               className={`${
                 active === link.title ? "text-white" : "text-secondary"
-              } hover:text-white text-[18px] font-medium cursor-pointer`}
+              } hover:text-white text-[16px] font-medium cursor-pointer`}
               onClick={() => setActive(link.title)}
             >
               <a href={`#${link.id}`}>{link.title}</a>

@@ -1,4 +1,4 @@
-import juadebB from "./juad-logo-zip-file/png/logo-no-background.png";
+import juadebB from "./juadebmain (1).png";
 import backend from "./backend.png";
 import creator from "./creator.png";
 import mobile from "./mobile.png";
@@ -26,9 +26,9 @@ import shopify from "./logo.png";
 import starbucks from "./pluracode.png";
 import tesla from "./dc.png";
 
-import carrent from "./carrent.png";
-import jobit from "./jobit.png";
-import tripguide from "./tripguide.png";
+import carrent from "./Summarizer.png";
+import jobit from "./React Store.png";
+import tripguide from "./kara.png";
 
 export {
   juadebB,
