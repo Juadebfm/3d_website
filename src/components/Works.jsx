@@ -59,8 +59,8 @@ const Works = () => {
   return (
     <>
       <motion.div variants={textVariant()}>
-        <p className={styles.sectionSubText}>my work</p>
-        <h2 className={styles.sectionHeadText}>Projects Done</h2>
+        <p className={styles.sectionSubText}>Projects</p>
+        <h2 className={styles.sectionHeadText}>Recent Projects</h2>
       </motion.div>
 
       <div className="w-full flex">
@@ -68,7 +68,7 @@ const Works = () => {
           variants={fadeIn("", "", 0.1, 1)}
           className="mt-3 text-white text-[16px] max-w-3xl leading-[30px]"
         >
-          Following projects showcases my skills and experience through
+          The Following projects showcases my skills and experience through
           real-world examples of my work. Each project is breifly described with
           links to code repositories and live demos in it. It reflects my
           ability to solve complex problems, work with different technologies,

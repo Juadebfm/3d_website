@@ -35,8 +35,8 @@ const About = () => {
   return (
     <>
       <motion.div variants={textVariant()}>
-        <p className={styles.sectionSubText}>Introduction</p>
-        <h2 className={styles.sectionHeadText}>Overview.</h2>
+        <p className={styles.sectionSubText}>OVERVIEW</p>
+        <h2 className={styles.sectionHeadText}>What i do !</h2>
       </motion.div>
       <motion.p
         variants={fadeIn("", "", 0.1, 1)}
@@ -45,19 +45,16 @@ const About = () => {
         <span className="block text-secondary text-[20px] capitalize mb-2">
           Welcome to the world of problem-solving!
         </span>
-        You've come to the right space if you're looking solutions to brand
-        bottle-necks. I've spent the last three years as a frontend web
-        developer and software development coach addressing challenges for
-        organizations, brands, institutions, and clients just like you. I
-        understand that your objectives in today's fast-paced digital
-        environment might be complex and time-consuming. With my knowledge and
-        experience, I can provide you with the ideal answer to any of your
-        technology-related problems. I have the expertise and knowledge to take
-        your business to the next level, from developing and building
-        user-friendly websites that engage your audience to giving top-tier
-        software development guidance and advice. I have the solutions you need
-        if you need help with web design, web development, software development,
-        or anything in between.
+        As a front-end web developer and software development coach, I have
+        spent the last three years solving tech-related problems for
+        organizations, brands, and institutions. I understand the complexity and
+        time constraints you may face in today's fast-paced digital environment.
+        With my knowledge and experience, I can provide you with effective
+        solutions to your technology-related challenges. Whether you need
+        assistance with web design, web development, or software development, I
+        have the expertise to take your business to the next level. I specialize
+        in developing user-friendly websites that engage your audience and offer
+        top-tier software development guidance and advice.
       </motion.p>
 
       <div className="mt-20 flex flex-wrap gap-10">

@@ -16,15 +16,12 @@ const Hero = () => {
             Adebowale
           </h1>
           <p
-            className={`${styles.heroSubText} mt-6 text-white-100 w-[75%] text-center`}
+            className={`text-[17px] leading-[30px] mt-6 text-white-100 w-[75%] text-center`}
           >
-            I'm a frontend web developer and software development mentor with 3
-            years of experience solving tech-related problems for businesses,
-            institutions, and clients. From designing user-friendly websites to
-            providing top-notch software development mentorship, I offer
-            innovative solutions tailored to your specific needs. With my unique
-            approach and dedication to exceptional customer service, you can
-            trust that your business needs are in good hands.
+            I am a front-end web developer and software development mentor. I
+            help businesses create accessible and inclusive websites that meet
+            the needs of all users. I use my skills and experience to make the
+            web a more accessible place for everyone.
           </p>
           <div className="flex flex-col md:flex-row items-center justify-start gap-8 mt-12">
             <button
@@ -43,7 +40,7 @@ const Hero = () => {
               className="border-[1px] border-white py-3 px-6 rounded-md hover:bg-secondary hover:text-primary duration-200 transition-all"
             >
               <a href="" className="text-[16px]">
-                Fun Projects
+                Recent Projects
               </a>
             </button>
           </div>

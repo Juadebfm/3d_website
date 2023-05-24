@@ -23,9 +23,6 @@ const Navbar = () => {
           }}
         >
           <img src={juadebB} alt="logo" className="w-30 h-30 object-contain" />
-          <p className="sm:block hidden text-white text-[16px] font-bold cursor-pointer">
-            Julius Gabriel Adeb
-          </p>
         </Link>
         <ul className="list-none hidden sm:flex flex-row gap-10">
           {navLinks.map((link) => (

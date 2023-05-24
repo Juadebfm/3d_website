@@ -6,6 +6,7 @@ import web from "./web.png";
 import github from "./github.png";
 import menu from "./menu.svg";
 import close from "./close.svg";
+import teeM from "./TM.png";
 
 import css from "./tech/css.png";
 import next from "./tech/next-js.svg";
@@ -29,8 +30,12 @@ import tesla from "./dc.png";
 import carrent from "./Summarizer.png";
 import jobit from "./React Store.png";
 import tripguide from "./kara.png";
+import dcoss from "./dcoss (1).png";
+import musicPlayer from "./musicPlayerp.png";
+import portfolio from "./portfoliob.jpg";
 
 export {
+  teeM,
   juadebB,
   backend,
   creator,
@@ -59,4 +64,7 @@ export {
   carrent,
   jobit,
   tripguide,
+  dcoss,
+  musicPlayer,
+  portfolio,
 };
