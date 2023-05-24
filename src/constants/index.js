@@ -25,7 +25,7 @@ import {
   next,
   dcoss,
   musicPlayer,
-  portfolio
+  portfolio,
 } from "../assets";
 
 export const navLinks = [
@@ -166,7 +166,7 @@ const experiences = [
     company_name: "Tommy Trading Co. Kano",
     icon: teeM,
     iconBg: "#383E56",
-    date: "August 2020 - Present",
+    date: "2008 - 2009",
     points: [
       "Responsible for managing sales and storekeeping operations at a children's wear and general product company.",
       "Conducted market research to identify customer preferences, trends, and competition in the industry.",

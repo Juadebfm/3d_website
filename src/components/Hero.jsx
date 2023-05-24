@@ -39,8 +39,12 @@ const Hero = () => {
               type="submit"
               className="border-[1px] border-white py-3 px-6 rounded-md hover:bg-secondary hover:text-primary duration-200 transition-all"
             >
-              <a href="" className="text-[16px]">
-                Recent Projects
+              <a
+                href="https://drive.google.com/file/d/1ZTnD33Is7kFTN8gnlnvIbafnAIA-Pd6E/view?usp=sharing"
+                download={true}
+                className="text-[16px]"
+              >
+                Download CV
               </a>
             </button>
           </div>
