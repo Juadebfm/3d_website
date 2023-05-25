@@ -10,13 +10,13 @@ const Hero = () => {
       >
         <div className="flex flex-col items-center justify-center m-auto w-full">
           <h1
-            className={`${styles.heroHeadText} text-white text-center flex items-center justify-center gap-6`}
+            className={`${styles.heroHeadText} text-white text-center flex flex-col lg:flex-row w-full md:w-auto items-center justify-center gap-6`}
           >
             <span className="text-secondary">Hi,</span> Iʻm Juadeb Gabriel
             Adebowale
           </h1>
           <p
-            className={`text-[17px] leading-[30px] mt-6 text-white-100 w-[75%] text-center`}
+            className={`text-[17px] leading-[30px] mt-6 text-white-100 w-full md:w-[75%] text-center`}
           >
             I am a front-end web developer and software development mentor. I
             help businesses create accessible and inclusive websites that meet
@@ -57,7 +57,7 @@ const Hero = () => {
       {/* <ComputersCanvas /> */}
       <br />
       <br />
-      <div className="absolute xs:bottom-10 bottom-32 w-full flex justify-center items-center">
+      <div className="hidden absolute xs:bottom-10 bottom-32 w-full md:flex justify-center items-center">
         <a href="#about">
           <div className="w-[35px] h-[64px] rounded-3xl border-2 border-white flex justify-center items-start p-2">
             <motion.div
