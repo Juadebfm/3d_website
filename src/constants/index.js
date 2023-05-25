@@ -187,7 +187,8 @@ const testimonials = [
     name: "Bello Daniel",
     designation: "MD/P",
     company: "DCOSS Associates Ltd",
-    image: "/src/assets/partner-fixed.jpg",
+    image:
+      "https://res.cloudinary.com/juadeb/image/upload/v1685006046/partner-fixed_aqv3zy.jpg",
   },
   {
     testimonial:
@@ -195,7 +196,8 @@ const testimonials = [
     name: "AY",
     designation: "Student",
     company: "Juadeb SM Mentorship Program",
-    image: "/src/assets/student.jpg",
+    image:
+      "https://res.cloudinary.com/juadeb/image/upload/v1685006066/student_vi7inf.jpg",
   },
   {
     testimonial:
@@ -203,7 +205,8 @@ const testimonials = [
     name: "Cyril",
     designation: "Senior Web Engineer",
     company: "PluralCode",
-    image: "/src/assets/pluracode.png",
+    image:
+      "https://res.cloudinary.com/juadeb/image/upload/v1685006085/pluracode_llj6qp.png",
   },
 ];
 

@@ -33,7 +33,7 @@ const FeedBackCard = ({
         </div>
         <img
           src={image}
-          alt={`feedback-by-${name}`}
+          alt=""
           className="w-10 h-10 rounded-full object-cover"
         />
       </div>
@@ -44,9 +44,7 @@ const FeedBackCard = ({
 const Feedbacks = () => {
   return (
     <div className="mt-12 bg-black-100 rounded-[20px]">
-      <div
-        className={`${styles.padding} bg- rounded-2xl min-h-[300px]`}
-      >
+      <div className={`${styles.padding} bg- rounded-2xl min-h-[300px]`}>
         <motion.div variants={textVariant()}>
           <p className={styles.sectionSubText}>What others say</p>
           <h2 className={styles.sectionHeadText}>Testimonials.</h2>
