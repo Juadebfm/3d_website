@@ -12,7 +12,7 @@ import {
   StarsCanvas,
 } from "./components";
 
-const TRACKING_ID = "G-TKXN7Z8NP8";
+const TRACKING_ID = "G-9Y8C68S3RV";
 ReactGA.initialize(TRACKING_ID);
 
 const App = () => {
