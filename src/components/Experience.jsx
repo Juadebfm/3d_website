@@ -3,6 +3,7 @@ import {
   VerticalTimelineElement,
 } from "react-vertical-timeline-component";
 import { motion } from "framer-motion";
+import ReactGA from "react-ga";
 
 import "react-vertical-timeline-component/style.min.css";
 
@@ -13,6 +14,11 @@ import { SectionWrapper } from "../hoc";
 import { textVariant } from "../utils/motion";
 
 const ExperienceCard = ({ experience }) => {
+  ReactGA.event({
+    category: "Experience",
+    action: "Click",
+    label: experience.title,
+  });
   return (
     <VerticalTimelineElement
       contentStyle={{ background: "#10101a", color: "fff" }}

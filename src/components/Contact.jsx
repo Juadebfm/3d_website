@@ -1,6 +1,7 @@
 import React, { useRef, useState } from "react";
 import { motion } from "framer-motion";
 import emailjs from "@emailjs/browser";
+import ReactGA from "react-ga";
 
 import Swal from "sweetalert2";
 
@@ -81,6 +82,19 @@ const Contact = () => {
       );
   };
 
+  ReactGA.event({
+    category: "Contact",
+    action: "Contact Form",
+    label: "Form Filled",
+  });
+
+  ReactGA.send({
+    hitType: "event",
+    eventCategory: "Contact",
+    eventAction: "Contact Form",
+    eventLabel: "Form Filled",
+  });
+
   return (
     <div
       className={`xl:mt-12 flex xl:flex-row flex-col-reverse gap-10 overflow-hidden`}
@@ -115,7 +129,7 @@ const Contact = () => {
               name="email"
               value={form.email}
               onChange={handleChange}
-              placeholder="What's your web address?"
+              placeholder="What's your email address?"
               className="bg-tertiary py-4 px-6 placeholder:text-secondary text-white rounded-lg outline-none border-none font-medium"
             />
           </label>
@@ -126,7 +140,7 @@ const Contact = () => {
               name="message"
               value={form.message}
               onChange={handleChange}
-              placeholder="What you want to say?"
+              placeholder="What do you want to say?"
               className="bg-tertiary py-4 px-6 placeholder:text-secondary text-white rounded-lg outline-none border-none font-medium"
             />
           </label>

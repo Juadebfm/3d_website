@@ -5,6 +5,7 @@ import { github } from "../assets";
 import { SectionWrapper } from "../hoc";
 import { projects } from "../constants";
 import { fadeIn, textVariant } from "../utils/motion";
+import ReactGA from "react-ga";
 
 const ProjectCard = ({
   index,
@@ -56,6 +57,10 @@ const ProjectCard = ({
 };
 
 const Works = () => {
+  ReactGA.event({
+    category: "Works",
+    action: "Visited Works Page",
+  });
   return (
     <>
       <motion.div variants={textVariant()}>

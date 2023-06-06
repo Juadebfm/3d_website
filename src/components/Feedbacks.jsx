@@ -1,4 +1,5 @@
 import { motion } from "framer-motion";
+import ReactGA from "react-ga";
 
 import { styles } from "../styles";
 import { SectionWrapper } from "../hoc";
@@ -42,6 +43,10 @@ const FeedBackCard = ({
 );
 
 const Feedbacks = () => {
+  ReactGA.event({
+    category: "User",
+    action: "Viewed Feedbacks",
+  });
   return (
     <div className="mt-12 bg-black-100 rounded-[20px]">
       <div className={`${styles.padding} bg- rounded-2xl min-h-[300px]`}>

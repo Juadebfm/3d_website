@@ -1,4 +1,5 @@
 import { BrowserRouter } from "react-router-dom";
+import ReactGA from "react-ga";
 import {
   About,
   Contact,
@@ -10,6 +11,9 @@ import {
   Works,
   StarsCanvas,
 } from "./components";
+
+const TRACKING_ID = "G-TKXN7Z8NP8";
+ReactGA.initialize(TRACKING_ID);
 
 const App = () => {
   return (

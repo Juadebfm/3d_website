@@ -1,5 +1,11 @@
 import { Html, useProgress } from "@react-three/drei";
+import ReactGA from "react-ga";
+
 const Loader = () => {
+  ReactGA.event({
+    category: "Loading",
+    action: "Loading",
+  });
   const { progress } = useProgress();
   return (
     <Html>

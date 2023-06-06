@@ -1,8 +1,26 @@
 import { motion } from "framer-motion";
 import { styles } from "../styles";
+import ReactGA from "react-ga";
+
 import { ComputersCanvas } from "./canvas";
 
 const Hero = () => {
+  ReactGA.event({
+    category: "Hero",
+    action: "Hero",
+  });
+
+  ReactGA.send({
+    hitType: "pageview",
+    page: "/hero",
+  });
+
+  ReactGA.send({
+    hitType: "event",
+    eventCategory: "Hero",
+    eventAction: "Hero",
+    eventLabel: "Hero",
+  });
   return (
     <section className="relative w-full h-screen mx-auto">
       <div

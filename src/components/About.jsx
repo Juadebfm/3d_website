@@ -1,4 +1,5 @@
 import React from "react";
+import ReactGA from "react-ga";
 
 import Tilt from "react-tilt";
 
@@ -11,6 +12,11 @@ import { fadeIn, textVariant } from "../utils/motion";
 import { SectionWrapper } from "../hoc";
 
 const ServiceCard = ({ index, title, icon }) => {
+  ReactGA.event({
+    category: "Service",
+    action: "Click",
+  });
+
   return (
     <Tilt className="xs:w-[250px] w-full">
       <motion.div
